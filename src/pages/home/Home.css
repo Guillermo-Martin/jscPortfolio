@@ -6,3 +6,7 @@
   border: 3px dashed blue;
   text-align: center;
 }
+
+.col {
+  border: 3px dotted orange;
+}

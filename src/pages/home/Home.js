@@ -21,6 +21,7 @@ function Home() {
             <Link to='/about'>About</Link>
           </Nav.Link>
         </Nav.Item>
+      
 
         <Nav.Item>
           <Nav.Link>
