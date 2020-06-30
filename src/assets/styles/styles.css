@@ -1,12 +1,22 @@
-.container {
-  border: 3px solid black;
+/* https://stackoverflow.com/questions/6464592/how-to-align-entire-html-body-to-the-center */
+/* How to align the entire html body to the center; using flexbox */
+body {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  min-height: 100vh;
 }
 
-.row {
+/* .container {
+  border: 3px solid black;
+  background-color: yellow;
+} */
+
+/* .row {
   border: 3px dashed blue;
   text-align: center;
-}
-
+} */
+/* 
 .col {
   border: 3px dotted orange;
-}
+} */
