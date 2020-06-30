@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
-import './Home.css';
 
 function Home() {
   return (
