@@ -11,7 +11,10 @@ function Work() {
 
       <Container>
 
-        <Navbar />
+        <div>
+          <Navbar />
+        </div>
+        
 
         <Row>
           <Col>
