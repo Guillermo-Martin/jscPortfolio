@@ -7,10 +7,10 @@ import Col from 'react-bootstrap/Col';
 
 function About() {
   return (
-    <div>
-      <Navbar />
 
       <Container>
+
+        <Navbar />
         <Row>
           <Col>
             <img src="https://randomuser.me/api/portraits/lego/2.jpg" alt="lego character" />
@@ -26,8 +26,7 @@ function About() {
           </Col>
         </Row>
       </Container>
-    </div>
-
+  
   )
 }
 

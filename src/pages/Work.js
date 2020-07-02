@@ -9,13 +9,9 @@ import Image from 'react-bootstrap/Image';
 function Work() {
   return (
 
-    <div>
-      
-      <Navbar />
-
       <Container>
 
-
+        <Navbar />
 
         <Row>
           <Col>
@@ -56,12 +52,12 @@ function Work() {
             <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
             {/* </Col> */}
             <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+            
           </Col>
         </Row>
 
       </Container>
-    </div>
-
+    
   )
 }
 
