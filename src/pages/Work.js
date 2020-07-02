@@ -6,56 +6,63 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
 
-function About() {
+function Work() {
   return (
-    <Container>
+
+    <div>
       
       <Navbar />
-     
-      <Row>
-        <Col>
-          <p>Illustrations</p>
-          {/* <Col xs={3} md={2}> */}
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-          {/* </Col> */}
-          {/* <Col xs={3} md={2}> */}
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-          {/* </Col> */}
-          {/* <Col xs={3} md={2}> */}
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-          {/* </Col> */}
-          {/* <Col xs={3} md={2}> */}
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-          {/* </Col> */}
-          {/* <Col xs={3} md={2}> */}
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-          {/* </Col> */}
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-        </Col>
 
-        <Col>
-          <p>Graphic Design</p>
-          {/* <Col xs={3} md={2}> */}
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-          {/* </Col> */}
-          {/* <Col xs={3} md={2}> */}
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-          {/* </Col> */}
-          {/* <Col xs={3} md={2}> */}
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-          {/* </Col> */}
-          {/* <Col xs={3} md={2}> */}
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-          {/* </Col> */}
-          {/* <Col xs={3} md={2}> */}
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-          {/* </Col> */}
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-        </Col>
-      </Row>
+      <Container>
 
-    </Container>
+
+
+        <Row>
+          <Col>
+            <p>Illustrations</p>
+            {/* <Col xs={3} md={2}> */}
+            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+            {/* </Col> */}
+            {/* <Col xs={3} md={2}> */}
+            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+            {/* </Col> */}
+            {/* <Col xs={3} md={2}> */}
+            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+            {/* </Col> */}
+            {/* <Col xs={3} md={2}> */}
+            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+            {/* </Col> */}
+            {/* <Col xs={3} md={2}> */}
+            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+            {/* </Col> */}
+            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+          </Col>
+
+          <Col>
+            <p>Graphic Design</p>
+            {/* <Col xs={3} md={2}> */}
+            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+            {/* </Col> */}
+            {/* <Col xs={3} md={2}> */}
+            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+            {/* </Col> */}
+            {/* <Col xs={3} md={2}> */}
+            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+            {/* </Col> */}
+            {/* <Col xs={3} md={2}> */}
+            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+            {/* </Col> */}
+            {/* <Col xs={3} md={2}> */}
+            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+            {/* </Col> */}
+            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+          </Col>
+        </Row>
+
+      </Container>
+    </div>
+
   )
 }
 
-export default About;
+export default Work;
