@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return(
     <div>
-      <Nav className="justify-content-left">
+      <Nav className="justify-content-left ml-5">
         <Nav.Item>
           <Nav.Link>
             <Link to='/'>Home</Link>

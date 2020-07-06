@@ -11,11 +11,9 @@ function Work() {
 
       <Container>
 
-        <div>
           <Navbar />
-        </div>
         
-
+        
         <Row>
           <Col>
             <p>Illustrations</p>
