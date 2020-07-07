@@ -33,3 +33,10 @@ body {
   margin-left: 4rem;
   margin-top: 1rem;
 }
+
+/* object-fit: cover (https://stackoverflow.com/questions/36965331/generate-a-square-thumbnail-image-regardless-the-image-ratio) */
+.Work-image {
+  width: 139px;
+  height: 139px;
+  object-fit: cover;
+}
