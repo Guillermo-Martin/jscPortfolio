@@ -23,3 +23,7 @@ body {
 /* .col {
   border: 3px dotted orange;
 } */
+
+.About-text {
+  text-align: left;
+}
