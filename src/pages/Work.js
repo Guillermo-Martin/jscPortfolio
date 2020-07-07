@@ -16,7 +16,7 @@ function Work() {
         
         <Row>
           <Col>
-            <p>Illustrations</p>
+            <p className="Work-header">Illustrations</p>
             {/* <Col xs={3} md={2}> */}
             <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
             {/* </Col> */}
@@ -36,7 +36,7 @@ function Work() {
           </Col>
 
           <Col>
-            <p>Graphic Design</p>
+            <p className="Work-header">Graphic Design</p>
             {/* <Col xs={3} md={2}> */}
             <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
             {/* </Col> */}

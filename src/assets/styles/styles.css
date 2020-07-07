@@ -27,3 +27,9 @@ body {
 .About-text {
   text-align: left;
 }
+
+.Work-header {
+  text-align: left;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
