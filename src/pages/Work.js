@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Thumbnail from './../components/Thumbnail';
 import Image from 'react-bootstrap/Image';
 import illustrations from './../illustrations';
+import graphics from './../graphics';
 
 class Work extends Component {
   
@@ -21,6 +22,16 @@ class Work extends Component {
         alt={illustration.alt}
       />
     );
+
+    // create the graphics array
+    // for every graphic, create a thumbnail with props
+    const graphicsArr = graphics.map(graphic => 
+      <Thumbnail 
+        id={graphics.id}
+        src={graphic.src}
+        alt={graphic.alt}
+      />
+    )
 
     return(
       <Container>
@@ -50,11 +61,8 @@ class Work extends Component {
           <Col>
             <p className="Work-header">Graphic Design</p>
             
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-            
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
-            
-            <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
+            {/* render the graphics array */}
+            {graphicsArr}
             
             <Image src="https://randomuser.me/api/portraits/men/88.jpg" thumbnail />
             
